@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies - Jimena Jimvel</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background: #555;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: white;
+            border-radius: 5px;
+        }
+        .hobby-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .hobby-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            margin-right: 20px;
+            object-fit: cover;
+        }
+        .hobby-text h3 {
+            margin: 0 0 10px 0;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .hobby-item {
+                flex-direction: column;
+                text-align: center;
+            }
+            .hobby-item img {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jimena, Jimvel</h1>
+        <p>BSIT - My Hobbies</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <div class="hobby-item">
+            <img src="gym.jpg" alt="Gym">
+            <div class="hobby-text">
+                <h3>Gym</h3>
+                <p>Working out at the gym keeps me fit and energized.</p>
+            </div>
+        </div>
+        <div class="hobby-item">
+            <img src="codings.jpg" alt="Coding">
+            <div class="hobby-text">
+                <h3>Coding</h3>
+                <p>Coding is both my passion and my profession.</p>
+            </div>
+        </div>
+        <div class="hobby-item">
+            <img src="playing games.jpg" alt="Playing games">
+            <div class="hobby-text">
+                <h3>Playing Games</h3>
+                <p>I enjoy playing video games to relax and challenge myself.</p>
+            </div>
+        </div>
+        <div class="hobby-item">
+            <img src="reading books.jpg" alt="Reading books">
+            <div class="hobby-text">
+                <h3>Reading Books</h3>
+                <p>Reading books expands my imagination and knowledge.</p>
+            </div>
+        </div>
+        <div class="hobby-item">
+            <img src="watching movies.jpg" alt="Watching movies">
+            <div class="hobby-text">
+                <h3>Watching Movies</h3>
+                <p>I love watching movies of all genres, especially thrillers and comedies.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2026 Jimena, Jimvel | Web Systems</p>
+    </footer>
+</body>
+</html>
